@@ -1,4 +1,4 @@
-const FastifyNextJS = require('./fastify')
+const FastifyNextJS = require('./fastify_with_next')
 const dev = false;
 
 (async ()=>{
