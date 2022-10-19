@@ -1,0 +1,4 @@
+node_modules
+.next
+next_files/prod_build
+.idea
