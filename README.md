@@ -6,17 +6,11 @@
 yarn install
 ```
 
-or
-
-```
-npm install
-```
-
 ## Usage
 
 ### DEV ENVIRONMENT
 
-1. change line 2 in index.js to:
+1. Change line 2 in index.js to:
 
 ```
 const dev = false;
@@ -28,11 +22,11 @@ const dev = false;
 node index.js
 ```
 
-3. Use DEV url: http://localhost:3000/sample
+3. **_DEV_** url: http://localhost:3000/sample
 
 ### PROD ENVIRONMENT
 
-1. change line 2 in index.js to:
+1. Change line 2 in index.js to:
 
 ```
 const dev = true;
@@ -50,4 +44,4 @@ yarn next build ./next_files
 node index.js
 ```
 
-4. Use PROD url: http://localhost/sample
+4. **_PROD_** url: http://localhost/sample
