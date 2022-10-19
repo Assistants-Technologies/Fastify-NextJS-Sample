@@ -12,5 +12,5 @@ const dev = false;
         return app.render(request.raw, reply.raw, '/sample', { text: request.query.text || "Enter your desc in url to display it there! (?desc=Description)." })
     })
 
-    fastify.listen({ port: dev ? 3000 : 80 })
+    fastify.listen({ port: dev ? 3000 : 80 }).then(()=>console.log("SERVER IS LISTENING"))
 })()
