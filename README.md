@@ -35,7 +35,7 @@ const dev = true;
 2. Run in cmd:
 
 ```
-yarn next build ./next_files
+yarn next build
 ```
 
 3. Run in cmd
