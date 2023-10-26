@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@fastify/nextjs": "9",
+    "@fastify/cookie": "^9.1.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/session": "^10.5.0",
+    "@fastify/static": "^6.11.2",
     "fastify": "4",
-    "next": "12",
+    "next": "^14.0.0",
     "react": "18",
     "react-dom": "18"
   }
